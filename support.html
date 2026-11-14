@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Support · Pixelverse - Mr. Pixels</title>
+<style>
+:root{--bg:#f6f5f3;--card:#ffffff;--ink:#1d1d1f;--muted:#5f5f66;--line:#e2e0dc;--link:#0a5fc2;--band:#2b2b2b;--bandink:#f2f2f2}
+@media (prefers-color-scheme:dark){:root{--bg:#161617;--card:#1f1f21;--ink:#f2f2f2;--muted:#a9a9b2;--line:#34343a;--link:#6cb2ff;--band:#0e0e0f;--bandink:#f2f2f2}}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--ink);font:17px/1.6 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif}
+header{background:var(--band);color:var(--bandink);padding:28px 0}header .in{padding:0 16px}
+header .in,main,footer{max-width:720px;margin:0 auto}
+header p{margin:0;font-size:15px;opacity:.75}
+header h1{margin:2px 0 0;font-size:30px;line-height:1.2;text-wrap:balance}
+nav{margin-top:14px;font-size:15px}
+nav a{color:var(--bandink);margin-right:18px}
+main{padding:28px 16px 8px}
+h2{font-size:21px;line-height:1.3;margin:36px 0 8px}
+h3{font-size:17px;margin:22px 0 4px}
+p,ul,ol{margin:0 0 14px}
+ul,ol{padding-left:22px}
+li{margin-bottom:6px}
+a{color:var(--link)}
+.lead{font-size:19px}
+.note{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:16px 18px;margin:18px 0}
+.note p:last-child{margin-bottom:0}
+.muted{color:var(--muted)}
+footer{padding:20px 16px 48px;color:var(--muted);font-size:14px;border-top:1px solid var(--line);margin-top:32px}
+footer p{margin-bottom:8px}
+</style>
+</head>
+<body>
+<header><div class="in">
+<p>Pixelverse - Mr. Pixels</p>
+<h1>Support</h1>
+<nav><a href="support.html" aria-current="page">Support</a><a href="privacy.html">Privacy Policy</a></nav>
+</div></header>
+<main>
+<p class="lead">Pixelverse makes images of a character you describe and records narration of what you type, using your own OpenAI and ElevenLabs accounts. This page covers setting it up and what to do when something goes wrong.</p>
+
+<div class="note">
+<p><strong>Need help?</strong> Write to <a href="mailto:[SUPPORT EMAIL]">[SUPPORT EMAIL]</a>. Say what you tapped and the exact words of any message the app showed. Please do not send your API keys.</p>
+</div>
+
+<h2>Getting started</h2>
+<h3>Why does it ask for API keys?</h3>
+<p>Pixelverse does not sell images or narration. OpenAI makes the images and ElevenLabs records the narration, each through an account you hold with them. An API key is how the app uses your account. Pixelverse itself is free and has no purchases inside it.</p>
+<h3>Getting an OpenAI key</h3>
+<ol>
+<li>In Pixelverse, open <strong>Settings</strong> and tap <strong>Open OpenAI's API Keys Page</strong>.</li>
+<li>Sign in on OpenAI's API site and set up billing there.</li>
+<li>Create a new secret key and copy it straight away. OpenAI shows a key only once.</li>
+<li>Back in Pixelverse, paste it under OpenAI and tap <strong>Save Key</strong>.</li>
+</ol>
+<p>OpenAI's API is billed separately from ChatGPT. A ChatGPT subscription does not include it.</p>
+<h3>Getting an ElevenLabs key</h3>
+<ol>
+<li>In <strong>Settings</strong>, tap <strong>Open ElevenLabs's API Keys Page</strong>.</li>
+<li>Sign in to ElevenLabs and create a key in your account settings. If you limit what the key can do, give it access to Text to Speech.</li>
+<li>Paste it under Rant Narration and tap <strong>Save Key</strong>.</li>
+</ol>
+<p>You only need the key for the part you use. Images need the OpenAI key; narration needs the ElevenLabs key.</p>
+
+<h2>Costs</h2>
+<h3>What does it cost?</h3>
+<p>Pixelverse charges nothing. OpenAI and ElevenLabs bill your accounts for each image and each recording, at their own prices. Every button that sends a paid request says so beside it: Generate, Generate Portrait, Save &amp; Record Narration, Record Narration, and Re-record.</p>
+<h3>I cancelled, or the request failed. Was I charged?</h3>
+<p>Possibly. A request that was already sent when you cancelled, or when the app was closed, may still be billed by the company that received it. Their billing pages show what was charged.</p>
+
+<h2>When something goes wrong</h2>
+<h3>"The saved API key was rejected."</h3>
+<p>The company did not accept the key. Check that you copied all of it, that it has not been revoked, and that it is in the right place: the OpenAI key under OpenAI, the ElevenLabs key under Rant Narration. Saving a new key replaces the old one.</p>
+<h3>A message about access to the selected model</h3>
+<p>Your OpenAI account may not have access to the image model you chose. In Settings, <strong>Check Flare &amp; Sunburst Access</strong> tests this without generating or charging for an image. Try the other model on the Create screen, or check your account with OpenAI.</p>
+<h3>"No OpenAI key is saved" or "No ElevenLabs key is saved"</h3>
+<p>Add the key in Settings. Create and Rants show a reminder at the top while the key they need is missing.</p>
+<h3>The request stopped when I locked my iPhone</h3>
+<p>If the iPhone locks or you leave the app while a request is running, iOS gives the app about half a minute to finish. A longer request is cancelled. Keep Pixelverse open and the iPhone awake until the image or recording appears.</p>
+<h3>The image appeared but would not save</h3>
+<p>If saving to the library fails, the image stays on the Create screen with a <strong>Retry Library Save</strong> button. Free up some storage and tap it.</p>
+
+<h2>Your library</h2>
+<h3>Where are my images and recordings?</h3>
+<p>On your iPhone, inside the app. Nothing is kept on a server. Use the share sheet on any image, recording, or rant to send it elsewhere or save an image to Photos.</p>
+<h3>Backing up and moving to a new iPhone</h3>
+<ol>
+<li>In <strong>Settings</strong>, tap <strong>Back Up Library…</strong> and save the folder somewhere in Files, such as iCloud Drive.</li>
+<li>On the other iPhone, tap <strong>Restore from Backup…</strong>, open the backup folder itself so that <code>library.json</code> is on screen, and tap <strong>Open</strong>.</li>
+<li>Pixelverse shows what the backup holds and what it will replace. Tap <strong>Replace</strong> to go ahead.</li>
+</ol>
+<p>Restoring replaces the whole library; it does not merge. A backup never contains your API keys, so enter those again.</p>
+<h3>Deleting things</h3>
+<p>Deleting an image, a rant, a reference, or a character removes its files from the iPhone and cannot be undone. Deleting the app deletes the whole library, so back it up first if you want to keep it.</p>
+<h3>Removing a key</h3>
+<p>In Settings, <strong>Remove Key…</strong> appears under a saved key. It deletes the key from the iPhone. To cancel the key itself, revoke it on the company's website.</p>
+
+<h2>Other questions</h2>
+<h3>Does it work on iPad?</h3>
+<p>Pixelverse is made for iPhone. On an iPad it runs in an iPhone-sized window.</p>
+<h3>What does the app send, and to whom?</h3>
+<p>See the <a href="privacy.html">privacy policy</a>. The same summary is in the app under Settings, What Pixelverse Sends.</p>
+</main>
+<footer>
+<p>Pixelverse is an independent app. It is not affiliated with or endorsed by OpenAI or ElevenLabs.</p>
+<p>Drafted with help from Claude (Anthropic) and reviewed and edited by John Pederson.</p>
+<p>Label: Made By AI, Not for Profit (<a href="https://sites.google.com/gamestormedu.com/attribution-4-ai">Attribution 4 AI</a> © 2025 Jon Spike, <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>)</p>
+</footer>
+</body>
+</html>
